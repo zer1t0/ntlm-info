@@ -96,6 +96,6 @@ cargo install ntlm-info
 From repo:
 ```sh
 git clone https://github.com/Zer1t0/ntlm-info.git
-cd cerbero/
+cd ntlm-info/
 cargo install --path .
 ```
