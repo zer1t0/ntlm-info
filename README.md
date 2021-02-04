@@ -95,7 +95,19 @@ cargo install ntlm-info
 
 From repo:
 ```sh
+cargo install --git https://github.com/Zer1t0/ntlm-info.git
+```
+
+To build it statically in Windows (Powershell):
+```powershell
 git clone https://github.com/Zer1t0/ntlm-info.git
 cd ntlm-info/
-cargo install --path .
+$env:RUSTFLAGS='-C target-feature=+crt-static'
+cargo build --release
 ```
+
+
+## Acknowledgments
+
+This tool was inspired by [ntlm_challenger](https://github.com/domainicus/ntlm_challenger)
+
