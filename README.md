@@ -1,5 +1,8 @@
 # ntlm-info
 
+[![Crates.io](https://img.shields.io/crates/v/ntlm-info)](https://crates.io/crates/ntlm-info)
+[![Language Rust](https://img.shields.io/badge/Language-Rust-blue)](https://www.rust-lang.org/)
+
 Retrieve the host information that is specified in the NTLM challenge.
 
 This can be useful as a way to discover the names of the computers in an 
